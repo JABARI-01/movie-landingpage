@@ -43,7 +43,7 @@ const LandingPage = () => {
           transition={{ duration: 1 }}
         >
           <div className="absolute inset-0 bg-linear-to-b from-black via-gray-900 to-black" />
-          <div className="absolute -top-40 -right-40 w-96 h-96 bg-red-700 opacity-20 blur-[130px] rounded-full" />
+          <div className="absolute -top-40 right-1 w-96 h-96 bg-red-700 opacity-20 blur-[130px] rounded-full" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-red-600 opacity-10 blur-[100px] rounded-full" />
 
           <motion.h1
